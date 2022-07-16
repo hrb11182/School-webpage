@@ -1,0 +1,29 @@
+
+
+h2{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+    width: 95%;
+    align-items: center;
+    padding-left: .5rem;
+    padding: 50px 25px 25px 50px;
+    color:dimgrey;
+}
+
+span {
+    text-transform: uppercase;
+    font-family: 'Akaya Telivigala', cursive;
+}
+
+.text-1 {
+    color:blueviolet;
+}
+.text-2 {
+    color: red;
+}
+.text-3 {
+    color:green;
+}
+.text-4 {
+    color:deeppink;
+}

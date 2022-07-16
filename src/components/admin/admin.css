@@ -1,0 +1,25 @@
+.secc {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('./image/3.jpg');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.contnr {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxxx{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

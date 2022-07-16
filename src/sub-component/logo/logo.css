@@ -1,0 +1,10 @@
+.LogoText {
+    font-family: 'Akaya Telivigala', 'cursive';
+    font-size: 4em;
+    transition: all 0.2s ease;
+}
+
+.LogoText:hover {
+    transform: scale(1.2);
+    cursor: pointer;
+}

@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+*:focus {
+  outline: none;
+}
+
+.slider-maincontainer {
+  min-height: 100vh;
+  width: 100vw;
+  position: relative;
+  overflow: hidden;
+}
+
+.slider-picontainer1 {
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(./auditoriumh.jpg);
+}
+
+.slider-picontainer2 {
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-repeat: no-repeat;
+  background-image: url(./library-main.jpg);
+}
+
+.slider-picontainer3 {
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url(./computerlab-main.jpg);
+}
+
+.slider-picontainer4 {
+  min-height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+  background-image: url(./science-lab-main.jpg);
+}
+
+.slider-pic-wrapper {
+  width: 500%;
+  height: 800px;
+  display: flex;
+  position: absolute;
+  animation: 20s slider_animation ease-in-out infinite;
+}
+
+@keyframes slider_animation {
+  0% {
+      left: 0%;
+  }
+  22.5% {
+      left: 0%;
+  }
+
+  28.5% {
+      left: -100%;
+  }
+  45% {
+      left: -100%;
+  }
+
+  51% {
+      left: -200%;
+  }
+  67.5% {
+      left: -200%;
+  }
+
+  76.5% {
+      left: -300%;
+  }
+  90% {
+      left: -300%;
+  }
+
+  100% {
+      left: 0%;
+  }
+}
+
+.slider-textcontainer {
+  width: 10%;
+  margin-left: 3.75%;
+  padding: 30px;
+  border-radius: 0px 100px 0px 0px;
+  border-left: 5px solid #000;
+  margin-top: 5%;
+  background: #fff;
+  position: absolute;
+}

@@ -1,0 +1,29 @@
+.teachertxt-main-container {
+    max-width: 70%;
+}
+
+h1 {
+    font-size: 3rem;
+    font-family: 'Akaya-Telivigala' ,'cursive';
+    margin: 0 auto;
+    color: lightslategray;
+}
+
+.one {
+    font-size: 1.2rem;
+    font-family: 'Sora';
+    text-transform: capitalize;
+    margin: 1rem auto;
+    font-weight: 400;
+    color: darkolivegreen;
+}
+
+.two{
+    font-style: italic;
+    font-size: 1rem;
+    color: cadetblue;
+}
+
+hr {
+    color: brown;
+}

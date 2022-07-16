@@ -1,0 +1,25 @@
+.sec {
+    min-height: 100vh;
+    min-width: 100vw;
+    background-image: url('./background.png');
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.cont {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.boxx{
+    width:50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}

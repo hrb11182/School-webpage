@@ -1,0 +1,11 @@
+.img{
+    width: 40%;
+}
+
+img {
+    width: 40rem;
+    height: 50rem;
+    align-items: stretch;
+    border: 1px solid white;
+    border-radius: 40px 40px 40px 40px;
+}
